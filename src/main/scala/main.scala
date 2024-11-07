@@ -10,7 +10,7 @@ def main(): Unit = {
 }
 
 
-def doSomething(using Timeout) = {
+def doSomething(using Timeout): String = {
   doSomethingDeeper
 }
 
